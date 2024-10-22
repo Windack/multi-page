@@ -1,0 +1,20 @@
+.content-wrapper > main {
+  padding-top: 4em;
+}
+
+.hero-section h2 {
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.hero-section h2 > mark {
+  height: 3.125rem;
+  background-color: rgba(var(--bs-primary-rgb), 0.25);
+  border-radius: 10px;
+}
+
+.hero-section .img-hero {
+  max-width: 100%;
+  height: auto;
+}

@@ -6,6 +6,16 @@ $body-bg: #FFFAF0;
 $body-color: #100C08;
 $font-family-base: 'BespokeSerif', serif;
 
+// navbar
+$nav-link-font-weight: 400;
+$nav-link-font-size: 0.875em;
+$navbar-nav-link-padding-x: 0.5rem;
+$navbar-nav-link-padding-y: 0.25rem;
+$nav-link-padding-x: 0.5rem;
+$nav-link-padding-y: 0.25rem;
+
+// container
+$grid-gutter-width: 2rem;
 
 // bootstrap import
-@import "../bootstrap/scss/bootstrap";
+@import "../bootstrap/scss/bootstrap.scss";
