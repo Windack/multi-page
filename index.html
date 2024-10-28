@@ -14,11 +14,11 @@
 
 		<!--- HTML replace scripts --->
 		<script>
-				$.get("../blocks/navbar.html", function(data){
+				$.get("blocks/navbar.html", function(data){
 					$("#navbar-insert").replaceWith(data);
 				});
 
-				$.get("../blocks/footer.html", function(data){
+				$.get("blocks/footer.html", function(data){
 				$("#footer-insert").replaceWith(data);
 			});
 		</script>
@@ -30,14 +30,39 @@
 
 		<main>
 
-			<div class="container-xxl hero-section">
-				<div class="d-flex flex-column" style="height: 600px;">
+			<div class="container-xxl hero-section mb-3">
+				<div class="d-flex flex-column" style="max-height: 600px;">
 					<div class="mx-auto text-center mb-2" style="max-width: 650px;">
 						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <mark>dolore magna</mark> aliqua.</h2>
 						<p style="font-size: 0.875em;">Lorem ipsum dolor sit amet, <span class="text-primary">consectetur adipiscing</span> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
 					</div>
-					<div class="rounded-3 border overflow-hidden" style="height: fit-content;">
+					<div class="rounded-3 border overflow-hidden hero-img-container">
 						<img class="img-hero centered" src="assets/images/hero-img.jpg">
+					</div>
+				</div>
+			</div>
+
+			<div class="container-xxl">
+				<div class="card-container">
+					<div class="row g-3 text-center">
+						<div class="col-md-4 col-12">
+							<div class="c-card p-3">
+								<h4>Lorem ipsum.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-12">
+							<div class="c-card p-3">
+								<h4>Lorem ipsum.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-12">
+							<div class="c-card p-3">
+								<h4>Lorem ipsum.</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

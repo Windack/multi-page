@@ -11,7 +11,7 @@
 .hero-section h2 > mark {
   height: 3.125rem;
   background-color: rgba(var(--bs-primary-rgb), 0.25);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .hero-section .img-hero {
@@ -19,9 +19,29 @@
   height: auto;
 }
 
-.centered {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media only screen and (min-width: 768px) {
+  .hero-img-container {
+    height: 400px;
+  }
+  
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.c-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius-lg);
+
+  & > h4 {
+    font-size: 1.25em;
+  }
+
+  & > p {
+    font-size: 0.875em;
+    margin: 0em;
+  }
 }
