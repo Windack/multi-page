@@ -14,11 +14,11 @@
 
 		<!--- HTML replace scripts --->
 		<script>
-				$.get("blocks/navbar.html", function(data){
+				$.get("./blocks/navbar.html", function(data){
 					$("#navbar-insert").replaceWith(data);
 				});
 
-				$.get("blocks/footer.html", function(data){
+				$.get("./blocks/footer.html", function(data){
 				$("#footer-insert").replaceWith(data);
 			});
 		</script>
